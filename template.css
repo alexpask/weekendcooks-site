@@ -1,0 +1,17 @@
+header {
+	background-color: #ccfff5;
+	width: 100%;
+	height: 160px;
+	text-align: center;
+}
+
+#main_title {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+h1 {
+	font-family: "Syncopate";
+	text-align: center;
+}
