@@ -3,6 +3,7 @@ header {
 	width: 100%;
 	height: 160px;
 	text-align: center;
+	font-family: Syncopate;
 }
 
 #main_title {
@@ -11,7 +12,16 @@ header {
 	line-height: normal;
 }
 
-h1 {
-	font-family: "Syncopate";
+#content {
+	line-height: 200px;
 	text-align: center;
+	font-family: Syncopate;
+	font-size: 30px;
+}
+
+#nav {
+	text-align: center;
+	font-size: 17px;
+	color: white;
+	padding-top: 50px;
 }
