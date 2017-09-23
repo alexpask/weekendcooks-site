@@ -6,5 +6,5 @@ deploy:
   bucket: www.weekendcooks.co.uk
   skip_cleanup: true
   region: eu-central-1
- notifications:
-  slack: $SLACK_KEY
+notifications:
+   slack: $SLACK_KEY
