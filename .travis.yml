@@ -7,4 +7,4 @@ deploy:
   skip_cleanup: true
   region: eu-central-1
  notifications:
-    slack: $SLACK_KEY
+  slack: $SLACK_KEY
