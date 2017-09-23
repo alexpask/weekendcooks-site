@@ -1,4 +1,6 @@
 language: generic
+notifications:
+  slack: $SLACK_KEY
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
@@ -6,5 +8,3 @@ deploy:
   bucket: www.weekendcooks.co.uk
   skip_cleanup: true
   region: eu-central-1
-notifications:
-   slack: $SLACK_KEY
