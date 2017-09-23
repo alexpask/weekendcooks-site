@@ -1,6 +1,8 @@
 language: generic
 notifications:
-  slack: $SLACK_KEY
+  email:
+    - pask200@gmail.com
+    - alysha.c94@gmail.com
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
