@@ -25,3 +25,31 @@ header {
 	color: white;
 	padding-top: 50px;
 }
+
+#post {
+	border-style: groove;
+	border-width: 3px;
+	border-radius: 5px;
+	border-color: #a8a3a3;
+	margin: 15px 50px 15px 50px;
+}
+
+img {
+	margin-left:20px;
+	margin-right:20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+	font-size:16px;
+}
+
+.greydout:hover {
+	-webkit-opacity: 0.25;
+	-moz-opacity: 0.25;
+	opacity: 0.25;
+}
+
+
+
+
